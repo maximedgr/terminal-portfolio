@@ -1,4 +1,4 @@
-# [WebShell | Terminal Portfolio Website](https://www.krkmu.com/)
+# [WebShell | Terminal Portfolio Website](https://www.krkmu.dev/)
 > Forked from [https://github.com/nasan016/webshell](https://github.com/nasan016/webshell)  
 > All credit goes to [Nasan016](https://github.com/nasan016)❤️  
 
