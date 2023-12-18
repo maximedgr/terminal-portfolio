@@ -168,7 +168,7 @@ a:hover {
   font-weight: 400;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 718px) {
   body {
     font-size: 13px;
     padding: 2px;
