@@ -1,5 +1,5 @@
 import * as com from "./commands";
-
+import { logoLines } from "./fsociety";
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
 let historyIdx = 0
@@ -21,7 +21,7 @@ const PROMPT = document.getElementById("prompt");
 const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
 const REPO_LINK = com.REPO_LINK;
 const HISTORY : string[] = [];
-const SUDO_PASSWORD = "050823"
+const SUDO_PASSWORD = "12345"
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -29,6 +29,14 @@ const scrollToBottom = () => {
 
   MAIN.scrollTop = MAIN.scrollHeight;
 }
+
+const displayLogo = () => {
+    logoLines.forEach((line, index) => {
+    setTimeout(() => {
+      writeLines([line]);
+    }, 3200 + index * 100); // Augmentez le délai pour chaque ligne
+  });
+};
 
 function userInputHandler(e : KeyboardEvent) {
   const key = e.code;
@@ -155,6 +163,14 @@ function commandHandler(input : string) {
         setTimeout(() => {
           writeLines(["Now everything is ruined.", "<br>"]);
         }, 1200)
+
+        setTimeout(() => {
+          writeLines(["I hope you're happy.", "<br>"]);
+        }, 2200)
+
+        setTimeout(() => {
+          displayLogo();
+        }, 500)
 
         } else if (input === "rm -rf src" && bareMode) {
           writeLines(["there's no more src folder.", "<br>"])
