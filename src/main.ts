@@ -189,7 +189,7 @@ function commandHandler(input : string) {
         }, 12200);
 
         setTimeout(() => {
-          writeLines(["<br>", "Where are your friend?", "<br>"]);
+          writeLines(["<br>", "Where are you friend?", "<br>"]);
         }, 14200);
         
         setTimeout(() => {
