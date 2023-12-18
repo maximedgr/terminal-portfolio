@@ -12,33 +12,37 @@ const defaultObj = {
 }
 
 const whoamiObj = {
-  "message" : [
+  "message": [
     [
-      "In the kaleidoscope of existence,",
-      "I am but a reflection questioning the enigma - "
+      "In the network of existence,",
+      "I am a byte challenging the algorithm - "
     ],
     [
-      "Amidst cosmic whispers,",
-      "I navigate the maze of self-discovery,",
-      "echoing the eternal refrain - "
+      "Amongst lines of code,",
+      "I traverse the labyrinth of digital self-discovery,",
+      "resonating with the eternal loop - "
     ],
     [
-      "In the symphony of life,",
-      "I am a note inquiring its own melody,",
-      "harmonizing with the universal query - ",
+      "In the spectrum of virtuality,",
+      "I am a pixel seeking its own color,",
+      "synchronizing with the binary question - ",
     ],
     [
-      "As stardust contemplating its journey,",
-      "I ponder the cosmic query,",
-      "silently asking - ",
+      "As a data packet on its journey through the net,",
+      "I analyze the cryptographic mystery,",
+      "silently computing - ",
     ],
     [
-      "In the tapestry of reality,",
-      "I am the thread of self-inquiry,",
-      "weaving through the eternal question - "
+      "In the matrix of reality,",
+      "I am a script of introspection,",
+      "weaving through the firewall of existential inquiry - "
     ],
+    [
+      "42"
+    ]
   ],
 }
+
 
 const helpObj = {
   "commands": [
@@ -49,6 +53,14 @@ const helpObj = {
     [
       "'projects'",
       "Maybe there's something interesting."
+    ],
+    [
+      "'articles'",
+      "View interesting articles about my work."
+    ],
+    [
+      "'hackathons'",
+      "View my hackathon projects."
     ],
     [
       "'whoami'",
@@ -113,7 +125,7 @@ const createBanner = () : string[] => {
     banner.push(eleToPush);
   });  
   banner.push("<br>");
-  banner.push("Welcome to WebShell v1.0.0");
+  banner.push("Welcome to WebShell v1.0.1");
   banner.push("Type <span class='command'>'help'</span> for a list of all available commands.");
   banner.push(`Type <span class='command'>'repo'</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a>.`);
   banner.push("<br>");
@@ -216,10 +228,46 @@ const createHelp = () : string[] => {
   return help
 }
 
+const createArticles = () : string[] => {
+  const articles : string[] = [];
+  const SPACE = "&nbsp;";
+
+  articles.push("<br>");
+
+  command.articles.forEach((ele) => {
+    let link = `<a href="${ele[2]}" target="_blank">${ele[0]}</a>`;
+    let string = `${SPACE.repeat(2)}${link}${SPACE.repeat(30 - ele[0].length)}${ele[1]}`;
+    articles.push(string);
+  });
+
+  articles.push("<br>");
+  return articles;
+}
+
+const createHackathons = () : string[] => {
+  const hackathons : string[] = [];
+  const SPACE = "&nbsp;";
+
+  hackathons.push("<br>");
+
+  command.hackathons.forEach((ele) => {
+    let link = `<a href="${ele[2]}" target="_blank">${ele[0]}</a>`;
+    let string = `${SPACE.repeat(3)}${link}${SPACE.repeat(25 - ele[0].length)}${ele[1]}`;
+    hackathons.push(string);
+  });
+
+  hackathons.push("<br>");
+  return hackathons;
+}
+
+
+
 const BANNER = createBanner();
 const DEFAULT = createDefault();
 const HELP = createHelp();
 const ABOUT = createAbout();
 const PROJECTS = createProject();
+const ARTICLES = createArticles();
+const HACKATHONS = createHackathons();
 
-export { BANNER, DEFAULT, HELP, ABOUT, PROJECTS, REPO_LINK, createWhoami as WHOAMI } 
+export { BANNER, DEFAULT, HELP, ABOUT, PROJECTS, REPO_LINK, ARTICLES, HACKATHONS, createWhoami as WHOAMI } 

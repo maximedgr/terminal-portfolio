@@ -1,8 +1,8 @@
-# [WebShell | Terminal Portfolio Website](https://www.nasan.dev/)
+# [WebShell | Terminal Portfolio Website](https://www.krkmu.com/)
+> Forked from [https://github.com/nasan016/webshell](https://github.com/nasan016/webshell)  
+> All credit goes to [Nasan016](https://github.com/nasan016)❤️  
 
-<div align="center">
-  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/banner.png">
-</div>
+![krkmu.dev](res/terminal.png)
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
@@ -14,12 +14,6 @@
 * **[Tab]** for auto completion.
 * **[Esc]** to clear the input line.
 * **[↑][↓]** to scroll through your command history.
-
-## ???
-<div align="center">
-  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/secret.png">
-</div>
-How did we get here?
 
 ## Configuration
 
@@ -53,6 +47,13 @@ Most of the configuration is done in the `config.json` file.
       "Another Project Description",
       "Another Project Link"
     ]
+  ],
+  "articles": [
+    ["Title", "Description", "link"],
+  ]
+   ,
+  "hackathons": [
+    ["Title", "Description", "link"],
   ]
 }
 ```

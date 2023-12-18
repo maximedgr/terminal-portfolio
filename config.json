@@ -1,29 +1,51 @@
 {
   "ascii": [
-    "███╗   ██╗ █████╗ ███████╗ █████╗ ███╗   ██╗",
-    "████╗  ██║██╔══██╗██╔════╝██╔══██╗████╗  ██║",
-    "██╔██╗ ██║███████║███████╗███████║██╔██╗ ██║",
-    "██║╚██╗██║██╔══██║╚════██║██╔══██║██║╚██╗██║",
-    "██║ ╚████║██║  ██║███████║██║  ██║██║ ╚████║",
-    "╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝"
+  "██╗  ██╗██████╗ ██╗  ██╗███╗   ███╗██╗   ██╗",
+  "██║ ██╔╝██╔══██╗██║ ██╔╝████╗ ████║██║   ██║",
+  "█████╔╝ ██████╔╝█████╔╝ ██╔████╔██║██║   ██║",
+  "██╔═██╗ ██╔══██╗██╔═██╗ ██║╚██╔╝██║██║   ██║",
+  "██║  ██╗██║  ██║██║  ██╗██║ ╚═╝ ██║╚██████╔╝",
+  "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝"                                            
   ],
-  "repoLink": "https://github.com/nasan016/webshell",
+  "repoLink": "https://github.com/maximedgr/terminal-portfolio",
   "social": {
-    "email": "nlm8841@nyu.edu",
-    "github": "nasan016",
-    "linkedin": "nathanielmacapinlac"
+    "email": "maxime.dienger@edu.devinci.fr",
+    "github": "maximedgr",
+    "linkedin": "maxime-dienger"
   },
-  "aboutGreeting": "Hi I'm Nathan. I'm a student at NYU Tandon.",
+  "aboutGreeting": "Hi I'm Maxime (aka krkmu). I'm a engineering student at ESILV & UCLA.",
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
+      "Cypher Lab",
+      "Web3 privacy focus company.",
+      "https://github.com/Cypher-Laboratory",
+      "https://cypherlab.fr"
     ],
     [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "Horae",
+      "Innovation at the service of watchmaking heritage.",
+      "https://horae.io"
+    ],
+    [
+      "KRYPTOSPHERE",
+      "Leading tech/blockchain/web3 student network in France & EU",
+      "https://kryptosphere.org"
     ]
+    
+  ],
+  "articles": [
+    ["ESILV - ETHGlobal Paris 2023", "Winner - Cypher Deposit Project", "https://www.esilv.fr/ethglobal-paris-2023-victoire-pour-les-eleves-ingenieurs-esilv-et-le-projet-cypher-deposit/"],
+    ["Strasbourg University", "Metavers Project", "https://mathinfo.unistra.fr/actualites/actualite/nos-etudiants-ont-du-talent"],
+    ["Interview KRYPTOSPHERE", "Student Organization", "https://coinaute.com/interview-maxime-dienger/"],
+    ["Conference", "ICN Business School", "https://start-in-blockchain.fr/nuit-de-la-blockchain-web3-tables-rondes/"],
+    ["PBWS Award","XRPL Hackathon","https://www.parisblockchainweek.com/press/paris-blockchain-week-hackathon-winners"]
+  ],
+  "hackathons": [
+    ["PBWS 2023", "Winner", "https://github.com/PBWS-Ripple-Solvency"],
+    ["ETHGlobal Paris 2023", "Winner", "https://github.com/Alice-s-Deposit"],
+    ["ETHDenver 2023", "Bounty Winner", "https://github.com/KS-ETHDenver2023"],
+    ["ETHGlobal NY 2023", "Bounty Winner","https://github.com/Match-Hack"],
+    ["ETHPrague", "Bounty Winner","https://github.com/ETHPrague-Discovery-Wallet"],
+    ["ETHWarsaw", "Bounty Winner","https://github.com/ZK-Rent"]
   ]
 }

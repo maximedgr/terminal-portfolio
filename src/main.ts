@@ -208,6 +208,20 @@ function commandHandler(input : string) {
       }
       writeLines(com.ABOUT);
       break;
+    case 'articles':
+      if(bareMode) {
+        writeLines(["Nothing to see here.", "<br>"])
+        break;
+      }
+      writeLines(com.ARTICLES);
+      break;
+    case 'hackathons':
+      if(bareMode) {
+        writeLines(["Nothing to see here.", "<br>"])
+        break;
+      }
+      writeLines(com.HACKATHONS);
+      break;
     case 'projects':
       if(bareMode) {
         writeLines(["I don't want you to break the other projects.", "<br>"])
