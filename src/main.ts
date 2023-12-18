@@ -158,19 +158,44 @@ function commandHandler(input : string) {
         easterEggStyles();
         setTimeout(() => {
           writeLines(["What made you think that was a good idea?", "<br>"]);
-        }, 200)
-
+        }, 200);
+        
         setTimeout(() => {
           writeLines(["Now everything is ruined.", "<br>"]);
-        }, 1200)
+        }, 1200); 
+        
+        setTimeout(() => {
+          writeLines(["Hello, friend.", "<br>"]);
+        }, 2200); 
+        
+        setTimeout(() => {
+          writeLines(["Hello, friend?", "<br>"]);
+        }, 4200); 
+        
+        setTimeout(() => {
+          writeLines(["That's lame.<br>Maybe I should give you a name, but that's a slippery slope.", "<br>"]);
+        }, 6200);
+        
+        setTimeout(() => {
+          writeLines(["You're only in my head.", "<br>"]);
+        }, 8200); 
+        
+        setTimeout(() => {
+          writeLines(["We have to remember that.", "<br>"]);
+        }, 10200); 
+        
+        setTimeout(() => {
+          writeLines(["<br>","Shit", "<br>"]);
+        }, 12200);
 
         setTimeout(() => {
-          writeLines(["I hope you're happy.", "<br>"]);
-        }, 2200)
-
+          writeLines(["<br>", "Where are your friend?", "<br>"]);
+        }, 14200);
+        
         setTimeout(() => {
           displayLogo();
-        }, 500)
+        }, 16200); 
+        
 
         } else if (input === "rm -rf src" && bareMode) {
           writeLines(["there's no more src folder.", "<br>"])
@@ -198,7 +223,7 @@ function commandHandler(input : string) {
       break;
     case 'banner':
       if(bareMode) {
-        writeLines(["WebShell v1.0.0", "<br>"])
+        writeLines(["WebShell v1.0.1", "<br>"])
         break;
       }
       writeLines(com.BANNER);
