@@ -9,17 +9,17 @@
   ],
   "repoLink": "https://github.com/maximedgr/terminal-portfolio",
   "social": {
-    "email": "maxime.dienger@edu.devinci.fr",
+    "email": "maxime@cypherlab.fr",
     "github": "maximedgr",
     "linkedin": "maxime-dienger"
   },
-  "aboutGreeting": "Hi I'm Maxime (aka krkmu). I'm a engineering student at ESILV & UCLA.",
+  "aboutGreeting": "Hi I'm Maxime (aka krkmu). I'm a blockchain engineer graduate from ESILV and UCLA.",
   "projects": [
     [
       "Cypher Lab",
       "Web3 privacy focus company.",
       "https://github.com/Cypher-Laboratory",
-      "https://cypherlab.fr"
+      "https://cypherlab.org"
     ],
     [
       "Horae",
@@ -34,6 +34,7 @@
     
   ],
   "articles": [
+    ["ESILV - Kryptosphere® Devinci at the ETHDenver Hackathon with Cypher Zer0x", "https://www.esilv.fr/en/kryptosphere-devinci-at-the-ethdenver-hackathon-with-cypher-zer0x/"],
     ["ESILV - ETHGlobal Paris 2023", "Winner - Cypher Deposit Project", "https://www.esilv.fr/ethglobal-paris-2023-victoire-pour-les-eleves-ingenieurs-esilv-et-le-projet-cypher-deposit/"],
     ["Strasbourg University", "Metavers Project", "https://mathinfo.unistra.fr/actualites/actualite/nos-etudiants-ont-du-talent"],
     ["Interview KRYPTOSPHERE", "Student Organization", "https://coinaute.com/interview-maxime-dienger/"],
@@ -41,6 +42,7 @@
     ["PBWS Award","XRPL Hackathon","https://www.parisblockchainweek.com/press/paris-blockchain-week-hackathon-winners"]
   ],
   "hackathons": [
+    ["ETHDenver 2024", "Bounty Winner", "https://devfolio.co/projects/cypher-zerx-a1cb"],
     ["PBWS 2023", "Winner", "https://github.com/PBWS-Ripple-Solvency"],
     ["ETHGlobal Paris 2023", "Winner", "https://github.com/Alice-s-Deposit"],
     ["ETHDenver 2023", "Bounty Winner", "https://github.com/KS-ETHDenver2023"],
